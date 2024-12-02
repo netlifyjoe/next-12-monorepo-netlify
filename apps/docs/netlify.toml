@@ -18,8 +18,8 @@ autoLaunch = false
 # status = 200
 # force = true
 
-[[redirects]]
-from = "/docs-static/_next/*"
-to = "https://next-12-monorepo-docs-netlify.netlify.app/_next/*"
-status = 200
-force = true
+# [[redirects]]
+# from = "/docs-static/_next/*"
+# to = "https://next-12-monorepo-docs-netlify.netlify.app/_next/*"
+# status = 200
+# force = true
