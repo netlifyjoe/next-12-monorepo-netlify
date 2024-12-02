@@ -13,6 +13,11 @@ for = "/_next/static/*"
 "Cache-Control" = "max-age=31560000, immutable"
 
 [[redirects]]
+from = "/docs"
+to = "https://next-12-monorepo-docs-netlify.netlify.app/docs"
+status = 200
+
+[[redirects]]
 from = "/docs/*"
 to = "https://next-12-monorepo-docs-netlify.netlify.app/:splat"
 status = 200
