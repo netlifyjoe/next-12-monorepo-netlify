@@ -12,9 +12,14 @@ autoLaunch = false
 # [headers.values]
 # "Cache-Control" = "max-age=31560000, immutable"
 
+# [[redirects]]
+# from = "/_next/*"
+# to = "/docs-static/_next/:splat"
+# status = 200
+# force = true
 
 [[redirects]]
-from = "/_next/*"
-to = "/docs-static/_next/:splat"
+from = "/docs-static/_next/*"
+to = "https://next-12-monorepo-docs-netlify.netlify.app/_next/*"
 status = 200
 force = true
