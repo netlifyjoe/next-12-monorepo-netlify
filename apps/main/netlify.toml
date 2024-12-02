@@ -15,5 +15,5 @@ for = "/_next/static/*"
 
 [[redirects]]
   from = "/docs/*"
-  to = "https://next-12-monorepo-netlify.netlify.app/:splat"
+  to = "https://next-12-monorepo-docs-netlify.netlify.app/:splat"
   status = 200
