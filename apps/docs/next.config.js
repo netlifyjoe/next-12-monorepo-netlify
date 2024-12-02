@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	// assetPrefix: "/docs-static",
-	basePath: "/docs",
+	assetPrefix: "https://next-12-monorepo-docs-netlify.netlify.app",
 	reactStrictMode: true,
 	// rewrites: async () => ({
 	// 	beforeFiles: [
