@@ -1,16 +1,7 @@
-/** @type {import('next').NextConfig} */
-// testing something
+Copy/** @type {import('next').NextConfig} */
 const nextConfig = {
-	reactStrictMode: true,
-	swcMinify: true,
-	assetPrefix: "/docs",
-	async rewrites() {
-		return [
-			{
-				source: "/docs/_next/:path*",
-				destination: "/_next/:path*",
-			},
-		];
-	},
+  reactStrictMode: true,
+  swcMinify: true,
+  basePath: '/docs',
 };
 module.exports = nextConfig;
