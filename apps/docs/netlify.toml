@@ -23,3 +23,9 @@ autoLaunch = false
 # to = "https://next-12-monorepo-docs-netlify.netlify.app/_next/*"
 # status = 200
 # force = true
+
+[[redirects]]
+from = "/docs/*"
+to = "https://next-12-monorepo-docs-netlify.netlify.app/:splat"
+status = 200
+force = true
