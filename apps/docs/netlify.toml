@@ -1,5 +1,5 @@
 [[plugins]]
-package = "npm i @netlify/plugin-nextjs"
+package = "@netlify/plugin-nextjs"
 
 [dev]
 port = 8082
