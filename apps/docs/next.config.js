@@ -1,16 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	// assetPrefix: "https://next-12-monorepo-docs-netlify.netlify.app",
 	reactStrictMode: true,
-	// rewrites: async () => ({
-	// 	beforeFiles: [
-	// 		{
-	// 			destination: "/_next/:path*",
-	// 			source: "/docs-static/_next/:path*",
-	// 		},
-	// 	],
-	// }),
 	swcMinify: true,
+	assetPrefix: "/docs",
+	async rewrites() {
+		return [
+			{
+				source: "/docs/_next/:path*",
+				destination: "/_next/:path*",
+			},
+		];
+	},
 };
-
 module.exports = nextConfig;
